@@ -6,9 +6,9 @@ package com.brycehan.designpatterns.factory.factorymethod;
  */
 public class Test {
     public static void main(String[] args) {
-        Product productA = new ProductAFactory().create();
-        Product productB = new ProductBFactory().create();
-        productA.show();
-        productB.show();
+        Movable car = new CarFactory().create();
+        Movable plane = new PlaneFactory().create();
+        car.move();
+        plane.move();
     }
 }

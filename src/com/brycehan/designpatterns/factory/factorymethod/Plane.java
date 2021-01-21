@@ -4,9 +4,9 @@ package com.brycehan.designpatterns.factory.factorymethod;
  * @author brycehan
  * @date 2021/1/19
  */
-public class ProductB implements Product {
+public class Plane implements Movable {
     @Override
-    public void show() {
-        System.out.println("生产出了产品B");
+    public void move() {
+        System.out.println("飞机起飞了");
     }
 }
