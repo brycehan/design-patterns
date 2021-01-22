@@ -1,6 +1,7 @@
 package com.brycehan.designpatterns.strategy;
 
 /**
+ * 策略设计模式测试
  * @author brycehan
  * @date 2021/1/20
  */
